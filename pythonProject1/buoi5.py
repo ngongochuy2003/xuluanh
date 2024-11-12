@@ -28,7 +28,7 @@ def load_and_preprocess_images(image_folder):
             resized_image = cv2.resize(gray_image, (64, 64))
             flat_image = resized_image.flatten()
 
-            data.append(np.append(flat_image, label))
+            data.append(np.append(flaat_image, label))
 
     return np.array(data)
 
